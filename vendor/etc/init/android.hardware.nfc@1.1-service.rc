@@ -1,0 +1,9 @@
+on property:ro.vendor.hw.nfc=true
+    start nfc_hal_service
+
+service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.1-service
+    interface android.hardware.nfc@1.1::INfc default
+    class hal
+    user nfc
+    group nfc
+    disabled

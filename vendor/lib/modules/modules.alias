@@ -1,0 +1,14 @@
+# Aliases extracted from modules themselves.
+alias i2c:aw869x_haptic aw869x
+alias platform:mmi_pl_chg_manager mmi_pl_chg_manager
+alias of:N*T*Cmmi,pl-chg-manager* mmi_pl_chg_manager
+alias of:N*T*Cti,bq25970-charger* bq2597x_mmi
+alias i2c:bq25970-charger bq2597x_mmi
+alias platform:mmi_sys_temp mmi_sys_temp
+alias of:N*T*Cmmi,sys-temp* mmi_sys_temp
+alias pci:v00001AE9d00000302sv*sd*bc*sc*i* wil6210
+alias pci:v00001AE9d00000310sv*sd*bc*sc*i* wil6210
+alias i2c:sx933x sx933x_sar
+alias of:N*T*Csynaptics,tcm-i2c* synaptics_tcm_i2c
+alias i2c:synaptics_tcm_i2c synaptics_tcm_i2c
+alias of:N*T*Cegistec,et516* ets_fps_mmi

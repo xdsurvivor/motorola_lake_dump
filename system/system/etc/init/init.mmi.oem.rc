@@ -1,0 +1,27 @@
+on post-fs-data
+    setprop ro.build.flavor ${ro.product.name}-${ro.build.type}
+    setprop ro.build.description "${ro.product.name}-${ro.build.type} ${ro.build.version.release} ${ro.build.id} ${ro.build.version.incremental} ${ro.build.tags}"
+
+on post-fs-data && property:ro.debuggable=0 && property:ro.build.tags=release-keys
+    setprop ro.build.display.id "${ro.build.id}"
+
+on post-fs-data && property:ro.debuggable=0 && property:ro.build.tags=bldccfg,test-keys
+    setprop ro.build.display.id "${ro.build.id} test-keys"
+
+on post-fs-data && property:ro.debuggable=0 && property:ro.build.tags=intcfg,test-keys
+    setprop ro.build.display.id "${ro.build.id} test-keys"
+
+on post-fs-data && property:ro.debuggable=0 && property:ro.build.tags=intcfg,release-keys
+    setprop ro.build.display.id "${ro.build.id}"
+
+on post-fs-data && property:ro.debuggable=0 && property:ro.build.tags=dfcfg,intcfg,release-keys
+    setprop ro.build.display.id "${ro.build.id}"
+
+on post-fs-data && property:ro.debuggable=1
+    setprop ro.build.display.id "${ro.product.name}-${ro.build.type} ${ro.build.version.release} ${ro.build.id} ${ro.build.version.incremental} ${ro.build.tags}"
+
+on post-fs-data && property:ro.mot.base_buildid=*
+    setprop ro.build.version.base_os "${ro.product.brand}/${ro.product.name}/${ro.product.device}:${ro.build.version.release}/${ro.mot.base_buildid}:${ro.build.type}/${ro.build.tags}"
+
+on property:ro.mot.version.full=*
+    setprop ro.build.version.full ${ro.mot.version.full}

@@ -1,0 +1,9 @@
+on property:persist.carrier.carrierid=*
+    setprop op.carrierid ${persist.carrier.carrierid}
+
+on property:persist.carrier.tether.denied=*
+    setprop ro.tether.denied ${persist.carrier.tether.denied}
+
+on property:persist.carrier.dm.uaprof=*
+    setprop ro.mot.hw.uaprof ${persist.carrier.dm.uaprof}
+    setprop ro.device.wapprofile.url ${persist.carrier.dm.uaprof}

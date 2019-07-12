@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the Motorola Android One Launcher
+-->
+<permissions>
+    <privapp-permissions package="com.motorola.launcher3">
+        <permission name="android.permission.BIND_APPWIDGET"/>
+        <permission name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+</permissions>

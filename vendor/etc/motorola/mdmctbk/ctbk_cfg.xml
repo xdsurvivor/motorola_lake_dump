@@ -1,0 +1,46 @@
+<xml>
+    <ctbk_version>15</ctbk_version>
+    <wifi_tx_pwr>
+        <Default_5GHZ   index="0">18</Default_5GHZ> <!--5G, Max power-->
+        <State1_5GHZ    index="1">15</State1_5GHZ>  <!--5G,WLAN+WWAN-->
+        <State2_5GHZ    index="2">16</State2_5GHZ>  <!--5G,MHS, WLAN+WAN-->
+        <Default_2GHZ   index="3">20</Default_2GHZ> <!--2G, Max power-->
+        <State1_2GHZ    index="4">19</State1_2GHZ> <!--2G,WLAN+WWAN-->
+        <State2_2GHZ    index="5">19</State2_2GHZ> <!--2G,MHS, WLAN+WAN-->
+        <State4_5GHZ    index="6">13</State4_5GHZ>  <!--5G,At head, WLAN only-->
+        <State5_5GHZ    index="7">13</State5_5GHZ>  <!--5G,At head, WLAN+WWAN-->
+        <State6_5GHZ    index="8">15</State6_5GHZ>  <!--5G,Body-Worn, WLAN only-->
+        <State7_5GHZ    index="9">15</State7_5GHZ>  <!--5G,Body-Worn, WLAN+WWAN-->
+        <State4_2GHZ    index="10">19</State4_2GHZ>  <!--2G,At head, WLAN only-->
+        <State5_2GHZ    index="11">19</State5_2GHZ>  <!--2G,At head, WLAN+WWAN-->
+        <State6_2GHZ    index="12">19</State6_2GHZ>  <!--2G,Body-Worn, WLAN only-->
+        <State7_2GHZ    index="13">19</State7_2GHZ>  <!--2G,Body-Worn, WLAN+WWAN-->
+    </wifi_tx_pwr>
+    <wifi_tx_pwr_fem>
+        <Default_5GHZ   index="0">20</Default_5GHZ> <!--5G, Max power-->
+        <State1_5GHZ    index="1">20</State1_5GHZ>  <!--5G,WLAN+WWAN-->
+        <State2_5GHZ    index="2">13</State2_5GHZ>  <!--5G,MHS, WLAN+WAN-->
+        <Default_2GHZ   index="3">22</Default_2GHZ> <!--2G, Max power-->
+        <State1_2GHZ    index="4">21</State1_2GHZ> <!--2G,WLAN+WWAN-->
+        <State2_2GHZ    index="5">18</State2_2GHZ> <!--2G,MHS, WLAN+WAN-->
+        <State4_5GHZ    index="6">13</State4_5GHZ>  <!--5G,At head, WLAN only-->
+        <State5_5GHZ    index="7">13</State5_5GHZ>  <!--5G,At head, WLAN+WWAN-->
+        <State6_5GHZ    index="8">13</State6_5GHZ>  <!--5G,Body-Worn, WLAN only-->
+        <State7_5GHZ    index="9">13</State7_5GHZ>  <!--5G,Body-Worn, WLAN+WWAN-->
+        <State4_2GHZ    index="10">18</State4_2GHZ>  <!--2G,At head, WLAN only-->
+        <State5_2GHZ    index="11">18</State5_2GHZ>  <!--2G,At head, WLAN+WWAN-->
+        <State6_2GHZ    index="12">18</State6_2GHZ>  <!--2G,Body-Worn, WLAN only-->
+        <State7_2GHZ    index="13">18</State7_2GHZ>  <!--2G,Body-Worn, WLAN+WWAN-->
+    </wifi_tx_pwr_fem>
+    <sar_sensors>
+        <sensor type="prox_front"           index="0">TMD3702 PROX</sensor>
+        <sensor type="prox_back"            index="1">null</sensor>
+	<!--from front view-->
+        <sensor type="cap_bottom_left"      index="2">Moto CapSense Ch1</sensor>
+        <sensor type="cap_bottom_right"     index="3">Moto CapSense Ch2</sensor>
+        <sensor type="cap_top"              index="4">Moto CapSense Ch0</sensor>
+	<sensor type="no sensor here"     index="5">NULL</sensor>
+    </sar_sensors>
+    <!--OB5 config: 5 = 00000101b (cap_bottom_left|cap_top)-->
+    <ob5_sensor_config>5</ob5_sensor_config>
+</xml>

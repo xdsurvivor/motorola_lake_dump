@@ -1,0 +1,25 @@
+BUILD REQUEST INFO:
+SW Version: lake_revvl-user 9 PCW29.83-56 49edb release-keysM636_08.23.02.46R
+MBM Version: MBM-3.0-lake_revvl-f9fff25-190517
+Modem Version: M636_08.23.02.46R
+FSG Version: FSG-660-10.83
+Build Fingerprint: motorola/lake_revvl/lake:9/PCW29.83-56/49edb:user/release-keys
+CQATest App Version: 6.0.4
+
+VERSION INFO FOUND UNDER 'ABOUT PHONE' SCREEN:
+System Version: 29.11.63.lake_revvl.revvl.en.US
+Model Number: REVVLRY+
+Android Version: 9
+Baseband Version: M636_08.23.02.46R
+Build Id: PCW29.83-56
+SW Display Build ID: PCW29.83-56
+Build Date: Fri May 17 16:10:05 CDT 2019
+
+OTHER MISC VERSION INFO:
+Subsidy Lock Config: slcf_rev_d_tmo_spr_rsu_qcom_v1.0.nvm
+Regulatory Info (eLabel): regulatory_info_default.png
+Blur Version: Blur_Version.29.11.63.lake_revvl.revvl.en.US
+Version when read from CPV: lake_revvl-user 9 PCW29.83-56 49edb release-keys
+
+AB Update Enabled: True
+Full Treble Enabled: True

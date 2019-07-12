@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.android.phone">
+        <!-- System defined permissions -->
+        <permission name="com.motorola.permission.MOTO_NETWORK_STATS" />
+        <!-- BEGIN Moto, liuyd1 IKSWO-22832 -->
+        <permission name="android.permission.TETHER_PRIVILEGED" />
+        <!-- End, IKSWO-22832 -->
+    </privapp-permissions>
+</permissions>

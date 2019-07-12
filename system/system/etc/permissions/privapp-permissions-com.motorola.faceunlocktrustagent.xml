@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.faceunlocktrustagent">
+        <permission name="android.permission.PROVIDE_TRUST_AGENT"/>
+    </privapp-permissions>
+</permissions>

@@ -1,0 +1,2 @@
+# Android system postinstall table
+/dev/block/bootdevice/by-name/system  /postinstall  ext4  ro,noexec,nosuid,nodev  wait,slotselect,otherslot,verify

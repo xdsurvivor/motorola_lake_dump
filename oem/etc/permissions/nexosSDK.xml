@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <library name="nexosSDK"
+            file="/oem/framework/nexosSDK.jar"/>
+</permissions>
+

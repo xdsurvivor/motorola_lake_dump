@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <permissions>
+     <package name="com.motorola.summit.rcs">
+         <permission name="android.permission.READ_SMS" />
+         <permission name="android.permission.READ_CONTACTS" />
+         <permission name="android.permission.WRITE_CONTACTS" />
+         <permission name="android.permission.ACCESS_COARSE_LOCATION" />
+     </package>
+ </permissions>

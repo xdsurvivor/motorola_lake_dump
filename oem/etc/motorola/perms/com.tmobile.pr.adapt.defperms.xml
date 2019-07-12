@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- b/26255212 -->
+<permissions>
+    <package name="com.tmobile.pr.adapt">
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.CALL_PHONE"/>
+
+        <permission name="android.permission.RECEIVE_SMS"/>
+    </package>
+</permissions>
