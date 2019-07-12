@@ -1,0 +1,25 @@
+BUILD REQUEST INFO:
+SW Version: lake-user 9 PPW29.98-107 34744 release-keysM636_08.23.02.46R
+MBM Version: MBM-3.0-lake_retail-4d454da-190524
+Modem Version: M636_08.23.02.46R
+FSG Version: FSG-660-10.83
+Build Fingerprint: motorola/lake/lake:9/PPW29.98-107/34744:user/release-keys
+CQATest App Version: 6.0.4
+
+VERSION INFO FOUND UNDER 'ABOUT PHONE' SCREEN:
+System Version: 29.241.116.lake.retail.en.US
+Model Number: moto g(7) plus
+Android Version: 9
+Baseband Version: M636_08.23.02.46R
+Build Id: PPW29.98-107
+SW Display Build ID: PPW29.98-107
+Build Date: Fri May 24 10:35:28 CDT 2019
+
+OTHER MISC VERSION INFO:
+Subsidy Lock Config: slcf_rev_d_default_v1.0.nvm
+Regulatory Info (eLabel): regulatory_info_default.png
+Blur Version: Blur_Version.29.241.116.lake.retail.en.US
+Version when read from CPV: lake-user 9 PPW29.98-107 34744 release-keys
+
+AB Update Enabled: True
+Full Treble Enabled: True

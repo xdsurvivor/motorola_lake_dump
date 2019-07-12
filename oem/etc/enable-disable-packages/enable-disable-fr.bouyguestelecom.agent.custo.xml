@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="fr.bouyguestelecom.agent.custo" default_action="disable">
+        <criteria action="enable" channel="bouyfr"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

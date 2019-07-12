@@ -1,0 +1,10 @@
+#
+# OEM_BUILD_PROPERTIES
+#
+ro.build.version.incremental=34744
+ro.build.version.ci=116
+ro.mot.build.guid=bd2aa260f52a271
+ro.product.name=lake
+ro.mot.build.oem.product=lake
+ro.mot.build.customerid=retail
+ro.product.device=lake

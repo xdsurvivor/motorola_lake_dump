@@ -1,0 +1,26 @@
+# Copyright (c) 2018, Motorola Mobility LLC, All Rights Reserved.
+#
+# For Google-forward (GFW) device, the GMS search client ID need
+# to override as android-motorola-gfw during "fs" stage. The origin
+# search client ID will be set during boot time.
+
+on fs && property:ro.boot.carrier=retus
+    setprop ro.com.google.clientidbase.ms android-motorola-gfw
+
+on fs && property:ro.boot.carrier=retgb
+    setprop ro.com.google.clientidbase.ms android-motorola-gfw
+
+on fs && property:ro.boot.carrier=retde
+    setprop ro.com.google.clientidbase.ms android-motorola-gfw
+
+on fs && property:ro.boot.carrier=retfr
+    setprop ro.com.google.clientidbase.ms android-motorola-gfw
+
+on fs && property:ro.boot.carrier=retit
+    setprop ro.com.google.clientidbase.ms android-motorola-gfw
+
+on fs && property:ro.boot.carrier=retes
+    setprop ro.com.google.clientidbase.ms android-motorola-gfw
+
+on fs && property:ro.boot.carrier=reteu2
+    setprop ro.com.google.clientidbase.ms android-motorola-gfw
