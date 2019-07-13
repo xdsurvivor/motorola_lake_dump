@@ -1,0 +1,4 @@
+com.motorola.motocit.audio.AudioTertiaryMicLoopBack
+com.motorola.motocit.audio.AudioSecondMicLoopBack
+com.motorola.motocit.audio.AudioMic4LoopBack
+com.motorola.motocit.audio.AudioPrimaryMicLoopBack

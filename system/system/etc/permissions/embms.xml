@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.qualcomm.embmslibrary"
+          file="/system/framework/embmslibrary.jar"/>
+
+    <privapp-permissions package="com.qualcomm.embms">
+        <!-- Qualcomm defined permissions -->
+        <permission name="com.qualcomm.permission.USE_EMBMS_SERVICE"/>
+    </privapp-permissions>
+
+</permissions>

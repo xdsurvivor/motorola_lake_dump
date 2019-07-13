@@ -1,0 +1,25 @@
+BUILD REQUEST INFO:
+SW Version: lake_retru-user 9 PPWS29.98-66-1-1 86c5e release-keysM636_03.08.02.35R
+MBM Version: MBM-3.0-lake_retail-deba0a5-190404
+Modem Version: M636_03.08.02.35R
+FSG Version: FSG-660-10.57
+Build Fingerprint: motorola/lake_retru/lake:9/PPWS29.98-66-1-1/86c5e:user/release-keys
+CQATest App Version: 6.0.4
+
+VERSION INFO FOUND UNDER 'ABOUT PHONE' SCREEN:
+System Version: 29.241.1.lake_retru.retru.ru.RU
+Model Number: moto g(7) plus
+Android Version: 9
+Baseband Version: M636_03.08.02.35R
+Build Id: PPWS29.98-66-1-1
+SW Display Build ID: PPWS29.98-66-1-1
+Build Date: Thu Apr  4 22:38:39 CDT 2019
+
+OTHER MISC VERSION INFO:
+Subsidy Lock Config: slcf_rev_d_default_v1.0.nvm
+Regulatory Info (eLabel): regulatory_info_default.png
+Blur Version: Blur_Version.29.241.1.lake_retru.retru.ru.RU
+Version when read from CPV: lake_retru-user 9 PPWS29.98-66-1-1 86c5e release-keys
+
+AB Update Enabled: True
+Full Treble Enabled: True

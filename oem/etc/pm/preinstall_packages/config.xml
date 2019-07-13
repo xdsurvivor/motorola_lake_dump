@@ -1,0 +1,9 @@
+<!--
+    Copyright (C) 2017 Motorola Mobility Inc.
+    All Rights Reserved.
+    Motorola Mobility Confidential Restricted.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <package module="YandexBrowserUninstallable" plmn="" channel=""/>
+    <package module="YandexWidgetUninstallable" plmn="" channel=""/>
+</resources>

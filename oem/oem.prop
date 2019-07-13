@@ -1,0 +1,12 @@
+#
+# OEM_BUILD_PROPERTIES
+#
+ro.build.version.incremental=86c5e
+ro.build.version.ci=1
+ro.mot.build.guid=b3b3a801e4ef5be
+ro.mot.base_buildid=PPW29.98-66-1/a1c85
+ro.product.locale=ru-RU
+ro.product.name=lake_retru
+ro.mot.build.oem.product=lake_retru
+ro.mot.build.customerid=retru
+ro.product.device=lake

@@ -1,0 +1,15 @@
+service netd /system/bin/netd
+    class main
+    socket netd stream 0660 root system
+    socket dnsproxyd stream 0660 root inet
+    socket mdns stream 0660 root system
+    socket fwmarkd stream 0660 root inet
+    onrestart restart zygote
+    onrestart restart zygote_secondary
+
+on post-fs-data
+    # mkdir IPLog folder
+    mkdir /data/misc/iplog 0770 system system
+
+    # mkdir ModemStatsService folder
+    mkdir /data/misc/ps_recovery_iplog 0770 system system
