@@ -1,0 +1,30 @@
+
+
+HAB_PRODUCT lake
+
+HAB_SECURITY_VERSION 2
+
+HAB_CID 11
+
+HAB_JENKINS enabled
+
+HAB_CUSTOMER_REGION ChnIndJpnUnlk
+
+OTA_KEY motorola/security/certs/hab_support/products/lake/apk_certs_ChnIndJpnUnlk/ota.x509.pem
+
+
+This build is customer signed.
+
+Use "fastboot getvar cid" to confirm customer ID on secure HW.
+
+Value must be 0 (developer HW) or match this value:
+
+ChnIndJpnUnlk         => 11
+
+
+For signed build support, please see:
+
+motorola/security/certs/README.txt
+
+
+
