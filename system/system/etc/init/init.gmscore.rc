@@ -1,0 +1,3 @@
+on boot
+    # Force rotation off during setup
+    setprop ro.setupwizard.rotation_locked true

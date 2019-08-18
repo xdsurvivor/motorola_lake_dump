@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+        <!-- for some default allowed autoruan packages not in vendor/zui/apps -->
+        <default_allow_auto_run package="com.google.android.gms" allowtype="hide" />
+        <default_allow_auto_run package="com.android.phone" allowtype="hide" />
+        <default_allow_auto_run package="com.android.inputmethod.latin" allowtype="hide" />
+
+        <!-- not preloaded app but need whitelist -->
+        <hide-fg-notify package="com.tencent.mm" />
+</config>

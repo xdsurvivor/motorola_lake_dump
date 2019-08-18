@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+        <default_allow_auto_run package="com.lenovo.weathercenter" allowtype="hide" />
+</config>

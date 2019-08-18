@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <required-managed-profile package="com.google.android.gms"/>
+    <required-managed-device  package="com.google.android.gms"/>
+    <required-managed-user    package="com.google.android.gms"/>
+</config>

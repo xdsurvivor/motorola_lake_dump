@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 ZUI Mobility LLC,
+  ~ All Rights Reserved.
+  ~ ZUI Mobility Confidential Restricted.
+  -->
+<packages>
+    <item>com.zui.sdac</item>
+    <item>com.zui.bugtogo</item>
+    <item>com.zui.auservice</item>
+    <item>com.zui.xlog</item>
+    <item>com.motorola.ccc.internal</item>
+</packages>

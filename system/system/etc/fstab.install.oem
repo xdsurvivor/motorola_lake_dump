@@ -1,0 +1,2 @@
+# Android oem postinstall table
+/dev/block/bootdevice/by-name/oem  /postinstall_oem  ext4  ro,noexec,nosuid,nodev  wait,slotselect,otherslot,verify

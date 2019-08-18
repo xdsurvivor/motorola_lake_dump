@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- <allow-bg-intents package="com.zui.weather" /> -->
+
+    <hide-fg-notify package="com.zui.weather" />
+</config>

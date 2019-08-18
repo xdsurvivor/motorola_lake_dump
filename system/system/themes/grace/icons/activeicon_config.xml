@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<activeicon>
+
+    <package
+        packageName="com.zui.mms"
+        show="false" >
+    </package>
+    <package
+        packageName="sina.mobile.tianqitong"
+        show="false" >
+    </package>
+    <package
+        packageName="activeicon.weather.zui.com.weather"
+        show="false" >
+    </package>
+    <package
+        packageName="com.zui.email"
+        show="false" >
+    </package>
+    <package
+        packageName="com.zui.safecenters"
+        show="true" >
+    </package>
+    <package
+        packageName="com.zui.safecenter"
+        show="true" >
+    </package>
+    <package
+        packageName="com.zui.calendar"
+        show="true" >
+    </package>
+    <package
+        packageName="com.zui.deskclock"
+        show="true" >
+    </package>
+
+</activeicon>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <required-managed-profile package="com.zui.contacts"/>
+    <required-managed-device  package="com.zui.contacts"/>
+    <required-managed-user    package="com.zui.contacts"/>
+</config>
