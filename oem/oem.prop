@@ -1,0 +1,12 @@
+#
+# OEM_BUILD_PROPERTIES
+#
+ro.build.version.incremental=6b55
+ro.build.version.ci=77
+ro.mot.build.guid=67959726c8e54dd
+ro.product.name=lake_retcn
+ro.mot.build.oem.product=lake_retcn
+ro.mot.build.customerid=retcn
+ro.carrier=retcn
+ro.boot.carrier=retcn
+ro.product.device=lake

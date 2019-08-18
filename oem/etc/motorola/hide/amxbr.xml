@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<channel>
+    <app
+        package="com.motorola.brapps" >
+        <component
+            class="com.motorola.brapps.ui.ClaroBrActivityImpl"
+            enabled="true">
+        </component>
+        <component
+            class="com.motorola.brapps.ui.BrAppsActivityImpl"
+            enabled="true">
+        </component>
+        <component
+            class="com.motorola.brapps.ui.ClaroBrActivity"
+            enabled="true">
+            <shortcut
+                x="0"
+                y="2"
+                screen="0" />
+        </component>
+        <component
+            class="com.motorola.brapps.ui.BrAppsActivity"
+            enabled="true">
+            <shortcut
+                x="4"
+                y="2"
+                screen="0" />
+        </component>
+    </app>
+</channel>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configurations>
+    <channel>
+         <app
+            package="com.motorola.brapps" >
+                <component
+                   class="com.motorola.brapps.ui.AttMxUnefonActivityImpl"
+                   enabled="false">
+                </component>
+                <component
+                    class="com.motorola.brapps.ui.AttMxActivityImpl"
+                    enabled="false">
+                </component>
+                <component
+                    class="com.motorola.brapps.ui.AttMxActivity"
+                    enabled="false">
+                </component>
+        </app>
+    </channel>
+    <plmn simswap="false" >
+       <sim mccmnc="334050">
+           <app
+               package="com.motorola.brapps" >
+               <component
+                   class="com.motorola.brapps.ui.AttMxUnefonActivityImpl"
+                   enabled="false">
+               </component>
+                <component
+                    class="com.motorola.brapps.ui.AttMxActivityImpl"
+                    enabled="true">
+                </component>
+                <component
+                    class="com.motorola.brapps.ui.AttMxActivity"
+                    enabled="true">
+                    <shortcut
+                        x="3"
+                        y="4"
+                        screen="0" />
+                </component>
+            </app>
+
+            <app
+                package="com.motorola.ptt.prip" >
+            </app>
+        </sim>
+
+        <sim mccmnc="334090">
+            <app
+                package="com.motorola.brapps" >
+                <component
+                    class="com.motorola.brapps.ui.AttMxUnefonActivityImpl"
+                    enabled="false">
+                </component>
+                <component
+                    class="com.motorola.brapps.ui.AttMxActivityImpl"
+                    enabled="true">
+                </component>
+                <component
+                    class="com.motorola.brapps.ui.AttMxActivity"
+                    enabled="true">
+                    <shortcut
+                        x="3"
+                        y="4"
+                        screen="0" />
+                </component>
+            </app>
+
+            <app
+                package="com.motorola.ptt.prip" >
+            </app>
+        </sim>
+
+        <sim mccmnc="334050" spn="(?i)^unefon.*">
+
+            <app
+                package="com.motorola.brapps" >
+                <component
+                    class="com.motorola.brapps.ui.AttMxActivityImpl"
+                    enabled="false">
+                </component>
+                <component
+                    class="com.motorola.brapps.ui.AttMxUnefonActivityImpl"
+                    enabled="true">
+                </component>
+                <component
+                    class="com.motorola.brapps.ui.AttMxUnefonActivity"
+                    enabled="true">
+                    <shortcut
+                        x="3"
+                        y="4"
+                        screen="0" />
+                </component>
+            </app>
+
+            <app
+                package="com.motorola.ptt.prip" >
+            </app>
+        </sim>
+
+        <sim mccmnc="334">
+            <app
+                package="com.motorola.ptt.prip" >
+            </app>
+        </sim>
+    </plmn>
+</configurations>
