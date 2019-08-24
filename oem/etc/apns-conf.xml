@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This file stores the testing apns for common devices. -->
+<apns version="8">
+    <apn carrier="TEST SIM"
+         mcc="001"
+         mnc="01"
+         apn="phone"
+         type="default,supl,hipri,fota,dun"
+         protocol="IPV4V6"
+         roaming_protocol="IPV4V6"
+    />
+    <apn carrier="IMS"
+         mcc="001"
+         mnc="01"
+         apn="ims"
+         type="ims"
+         protocol="IPV4V6"
+         roaming_protocol="IPV4V6"
+    />
+</apns>

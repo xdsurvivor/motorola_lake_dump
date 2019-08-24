@@ -1,0 +1,6 @@
+{
+    "Image_Build_IDs": {
+        "modem": "MPSS.AT.3.1.c5-00039-SDM660_GEN_PACK-1",
+    },
+    "Version": "1.0"
+}

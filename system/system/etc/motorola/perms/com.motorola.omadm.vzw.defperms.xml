@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+     <package name="com.motorola.omadm.vzw">
+          <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+          <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+     </package>
+</permissions>
